@@ -3,7 +3,7 @@
 import Link from "next/link";
 import React from "react";
 import FooterLogo from "./footer.logo";
-import { FaGithub, FaTwitter, FaFacebookF, FaLinkedinIn } from 'react-icons/fa';
+import { FaGithub, FaTwitter, FaFacebookF, FaLinkedinIn } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa6";
 import { subscribe } from "@/actions/add.subscribe1";
 import { useSearchParams } from "next/navigation";
@@ -66,15 +66,16 @@ const Footer = () => {
               <button
                 type="submit"
                 disabled={loading}
-                className="w-[150px] ter cursor-pointer rounded-r h-[49px] bg-[#3843D0] text-white">
+                className="w-[150px] ter cursor-pointer rounded-r h-[49px] bg-[#3843D0] text-white"
+              >
                 Subscribe
               </button>
             </form>
           </div>
           <br />
           <p className="text-xs text-center md:text-left">
-            By subscribing you agree with our Privacy Policy and provide
-            consent to receive updates from our company.
+            By subscribing you agree with our Privacy Policy and provide consent
+            to receive updates from our company.
           </p>
         </div>
         <div className="w-full md:w-[60%] flex md:justify-end justify-center py-5 md:py-0">
@@ -105,26 +106,47 @@ const Footer = () => {
           <div className="py-4">
             <div className="py-4">
               <div className="flex flex-col md:flex-row md:items-center md:justify-start space-y-4 md:space-y-0 md:space-x-4">
-                <Link href="" className="block md:inline">Terms</Link>
-                <Link href="" className="block md:inline">Privacy</Link>
-                <Link href="" className="block md:inline">Support</Link>
-                <Link href="" className="block md:inline">Sitemap</Link>
+                <Link href="" className="block md:inline">
+                  Terms
+                </Link>
+                <Link href="" className="block md:inline">
+                  Privacy
+                </Link>
+                <Link href="" className="block md:inline">
+                  Support
+                </Link>
+                <Link href="" className="block md:inline">
+                  Sitemap
+                </Link>
               </div>
             </div>
-              <p className="text-sm text-gray-400">
-                © 2024 BeeClone, Inc. All rights reserved.
-              </p>
-            </div>
-          </div>
-          <div className="flex justify-center space-x-4 mt-4">
-            <a href="https://twitter.com" className="text-white"><FaTwitter /></a>
-            <a href="https://instagram.com" className="text-white"><FaInstagram /></a>
-            <a href="https://facebook.com" className="text-white"><FaFacebookF /></a>
-            <a href="https://linkedin.com/in/jeffjiang13" className="text-white"><FaLinkedinIn /></a>
-            <a href="https://github.com/jeffjiang13" className="text-white"><FaGithub /></a>
+            <p className="text-sm text-gray-400">
+              © 2024 BeeClone, Inc. All rights reserved.
+            </p>
           </div>
         </div>
-      </footer>
+        <div className="flex justify-center space-x-4 mt-4">
+          <a href="https://twitter.com" className="text-white">
+            <FaTwitter />
+          </a>
+          <a href="https://instagram.com" className="text-white">
+            <FaInstagram />
+          </a>
+          <a href="https://facebook.com" className="text-white">
+            <FaFacebookF />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/arsal-azam-0b871716b/"
+            className="text-white"
+          >
+            <FaLinkedinIn />
+          </a>
+          <a href="https://github.com/arsaz101" className="text-white">
+            <FaGithub />
+          </a>
+        </div>
+      </div>
+    </footer>
   );
 };
 

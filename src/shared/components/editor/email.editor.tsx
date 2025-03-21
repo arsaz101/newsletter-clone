@@ -42,7 +42,6 @@ const Emaileditor = ({ subjectTitle }: { subjectTitle: string }) => {
     });
   };
 
-
   const exportHtml = () => {
     const unlayer = emailEditorRef.current?.editor;
 
@@ -50,7 +49,7 @@ const Emaileditor = ({ subjectTitle }: { subjectTitle: string }) => {
       const { design, html } = data;
       setJsonData(design);
       await sendEmail({
-        userEmail: ["jeff.jiang212@gmail.com"],
+        userEmail: ["arsalazam@gmail.com"],
         subject: subjectTitle,
         content: html,
       }).then((res) => {

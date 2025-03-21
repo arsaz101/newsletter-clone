@@ -14,6 +14,7 @@
 BeeClone is a SaaS Email Newsletter Platform, a robust solution developed using cutting-edge technologies including Next.js 14, TypeScript, AWS SES, AstraDB, and Stripe. Designed to efficiently manage and send email newsletters, this platform offers enhanced security measures against spam and provides tools for creating beautiful email templates. This platfrom is a clone of beehiiv newsletter.
 
 ## Table of Contents
+
 - [Features](#-features)
 - [Overview](#-overview)
 - [Development Phases](#-development-phases)
@@ -29,6 +30,7 @@ BeeClone is a SaaS Email Newsletter Platform, a robust solution developed using 
 ## 📺 Overview
 
 Our platform encompasses a full range of functionalities:
+
 - **Landing Page Design**: Aesthetic and responsive design for the first point of user engagement.
 - **User Authentication**: Secure login processes to ensure data protection.
 - **Dashboard Management**: Centralized dashboard to handle email designs and subscriptions.
@@ -39,6 +41,7 @@ Our platform encompasses a full range of functionalities:
 ## ⏰ Development Phases
 
 Here's a snapshot of the development lifecycle of our platform:
+
 - **Intro and Setup**: Introduction to the tools and setups.
 - **Landing Page Design**: Crafting the initial user interface.
 - **Authentication System**: Establishing secure user authentication.
@@ -54,7 +57,7 @@ Here's a snapshot of the development lifecycle of our platform:
 
 For further inquiries or potential collaborations, feel free to reach out:
 
-- **Email**: [jeff.jiang13@gmail.com](mailto:jeff.jiang13@gmail.com)
-- **LinkedIn**: [Jeff Jiang](https://www.linkedin.com/in/jeffjiang13/)
+- **Email**: [arsalazam@gmail.com](mailto:arsalazam@gmail.com)
+- **LinkedIn**: [Arsal Azam](https://www.linkedin.com/in/arsal-azam-0b871716b/)
 
 Feel free to connect with me for any queries or discussions related to this platform or other tech interests!
